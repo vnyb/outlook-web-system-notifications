@@ -11,7 +11,7 @@ Goals, requirements and constraints: @docs/PROJECT.md (read it; it wins over any
 ## Current phase
 
 1. **Diagnostic** (done 2026-10-09): `diagnostic/` holds a throwaway content script that logs reminder-looking DOM changes. It is not shipped.
-2. **Final detection** (v1.0.0 written 2026-10-09, awaiting the owner's manual tests in real Outlook): built from the first real sample. New samples go through the `update-detection` skill.
+2. **Final detection** (v1.0.0 written 2026-10-09; first real notification confirmed by the owner: PWA window, minimized, Linux — see `docs/images/notification.png`; other manual test cases pending): built from the first real sample. New samples go through the `update-detection` skill.
 3. **Polish** (open): sound (needs `offscreen`, not approved), snooze re-notification (decision pending), owner feedback.
 
 Update this section when the phase changes, and record confirmed DOM facts under "Observed Outlook DOM" below.
@@ -91,4 +91,5 @@ README.md
 - Hover actions `div#reminderHoverActionsId-<id>`: join Teams (aria-label, **no URL**), chat, snooze (`id="snooze_NNN"`), `button#dismissButton-<id>`.
 - All CSS classes are generated (hashed) — unusable.
 - Noise seen by the diagnostic and to avoid: the new-event form has a "Rappel" (singular) drop-down with "5 minutes avant"…; calendar `aria-live` regions ("193 événement(s) chargé(s)…").
-- Not yet observed: English UI, PWA window, several reminders, minimized window, status texts other than "Maintenant".
+- Confirmed by the owner (2026-10-09): the content script runs in the installed PWA window, and the reminder is detected and notified while that window is minimized (Linux).
+- Not yet observed: English UI, several reminders, background tab, tab + PWA together, status texts other than "Maintenant".

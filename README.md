@@ -4,6 +4,8 @@ Chrome extension (Manifest V3) that turns Outlook web's **in-page calendar remin
 into a **system notification**, so reminders are not missed when the Outlook window is in the
 background, minimized or on another workspace.
 
+![System notification for an Outlook reminder](docs/images/notification.png)
+
 It works by reading what the Outlook page already displays. It uses no Microsoft API
 (no Graph, no EWS, no OAuth app), makes **no network request**, sends no telemetry and loads no
 remote code. Everything stays in the browser.
