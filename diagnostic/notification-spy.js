@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+// Copyright (c) 2026 Vianney Bajart
 /*
  * Outlook Reminder Diagnostic — page-world spy (runs in the page's MAIN world).
  *

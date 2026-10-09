@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+// Copyright (c) 2026 Vianney Bajart
 /*
  * Outlook reminder detector — the ONLY file that knows Outlook web's DOM.
  *

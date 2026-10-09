@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+// Copyright (c) 2026 Vianney Bajart
 /*
  * Runs OWN.detectReminders on every fixture listed in fixtures/fixtures.json and compares the
  * result with the "<!-- expected: [...] -->" comment on the fixture's first line.

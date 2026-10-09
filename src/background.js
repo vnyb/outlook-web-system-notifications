@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+// Copyright (c) 2026 Vianney Bajart
 /*
  * Service worker: turns reminders reported by the content script into system notifications.
  *

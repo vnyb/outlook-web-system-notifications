@@ -69,6 +69,7 @@ README.md
 
 ## Code style
 
+- Every source file starts with `// SPDX-License-Identifier: EUPL-1.2` + copyright line (HTML: same in a comment after the doctype). Project licensed EUPL-1.2 (`LICENSE`).
 - `"use strict";`, `const`/`let`, small functions, JSDoc on every exported/namespace function.
 - Comment the *why* (Outlook quirks, MV3 lifecycle constraints), not the obvious.
 - Fail silently in production (catch, optionally log in debug mode); never break the Outlook page.

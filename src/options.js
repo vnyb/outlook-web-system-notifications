@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+// Copyright (c) 2026 Vianney Bajart
 /*
  * Options page: three checkboxes saved in chrome.storage.local (stays on this device,
  * never synced). Defaults must match DEFAULT_SETTINGS in background.js.

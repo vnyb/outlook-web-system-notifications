@@ -8,6 +8,13 @@ It works by reading what the Outlook page already displays. It uses no Microsoft
 (no Graph, no EWS, no OAuth app), makes **no network request**, sends no telemetry and loads no
 remote code. Everything stays in the browser.
 
+## Quickstart
+
+Install Outlook web as an app (PWA) and the extension, step by step:
+
+- 🇬🇧 English: [docs/QUICKSTART.en.md](docs/QUICKSTART.en.md)
+- 🇫🇷 Français : [docs/QUICKSTART.fr.md](docs/QUICKSTART.fr.md)
+
 ## How it works
 
 ```
@@ -134,3 +141,11 @@ Symptom: Outlook's in-page reminder appears but no system notification.
 
 For distribution (zip / Chrome Web Store / enterprise policy), ship only `manifest.json`, `src/`,
 `icons/` and `_locales/` — exclude `diagnostic/`, `test/`, `docs/`, `.claude/`.
+
+## License
+
+Copyright (c) 2026 Vianney Bajart.
+
+Licensed under the [European Union Public Licence v. 1.2](LICENSE) (EUPL-1.2).
+The EUPL is available in all official EU languages at
+<https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12>.
