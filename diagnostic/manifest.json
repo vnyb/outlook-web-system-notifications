@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Outlook Reminder Diagnostic (dev only)",
+  "version": "0.1.0",
+  "description": "Throwaway diagnostic: logs to the console the DOM elements that look like an Outlook calendar reminder pop-up. No network, no storage, no permissions.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://outlook.cloud.microsoft/*",
+        "https://outlook.office.com/*",
+        "https://outlook.office365.com/*"
+      ],
+      "js": ["diagnostic.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "https://outlook.cloud.microsoft/*",
+        "https://outlook.office.com/*",
+        "https://outlook.office365.com/*"
+      ],
+      "js": ["notification-spy.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}

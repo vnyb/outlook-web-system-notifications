@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="optionsTitle"></title>
+  <style>
+    body { font: 14px system-ui, sans-serif; margin: 16px; min-width: 360px; }
+    label { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 12px; }
+    #status { color: #107c10; min-height: 1.2em; }
+  </style>
+</head>
+<body>
+  <label><input type="checkbox" id="enabled"> <span data-i18n="optionEnabled"></span></label>
+  <label><input type="checkbox" id="keepImminent"> <span data-i18n="optionKeepImminent"></span></label>
+  <label><input type="checkbox" id="debug"> <span data-i18n="optionDebug"></span></label>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>

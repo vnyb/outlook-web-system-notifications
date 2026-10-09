@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "Rappels Outlook → notifications système" },
+  "extDescription": { "message": "Affiche les rappels du calendrier Outlook web sous forme de notifications système. Lit uniquement ce que la page affiche, aucun accès réseau." },
+  "notificationFallback": { "message": "Rappel Outlook" },
+  "optionsTitle": { "message": "Rappels Outlook – options" },
+  "optionEnabled": { "message": "Afficher une notification système pour les rappels Outlook" },
+  "optionKeepImminent": { "message": "Garder à l’écran jusqu’au clic les notifications des réunions imminentes (≤ 5 min)" },
+  "optionDebug": { "message": "Mode debug : journaliser les rappels détectés dans la console de la page Outlook (contient le détail des réunions)" },
+  "optionsSaved": { "message": "Enregistré" }
+}

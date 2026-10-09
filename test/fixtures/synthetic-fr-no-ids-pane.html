@@ -1,0 +1,10 @@
+<!-- expected: [{"title":"Point projet","start":"15:00","location":"Salle Iroise","status":"Dans 10 minutes"}] -->
+<!--
+  SYNTHETIC: simulates Outlook renaming the reminderContainer-/reminderButton- ids and the button
+  title attribute. Only data-app-section="NotificationPane" remains → exercises the "pane" strategy.
+-->
+<div data-portal-node="true">
+<div aria-live="polite" data-app-section="NotificationPane"><div><div>Rappels</div><div><button type="button">Faire tout disparaître</button><button type="button" aria-label="Fermer" title="Fermer"></button></div></div>
+<div><div tabindex="0"><div><button type="button"><div><svg viewBox="0 0 17 17"></svg></div><div><div><div>Point projet</div></div><div><div>15:00</div><div>Salle Iroise</div></div></div><div>Dans 10 minutes</div></button><div><button type="button" aria-label="Faire disparaître le rappel"></button></div></div></div></div>
+</div>
+</div>

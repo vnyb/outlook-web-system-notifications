@@ -1,0 +1,13 @@
+<!-- expected: [{"title":"Revue sprint","start":"9h30","location":"","status":"En retard de 2 minutes"},{"title":"Appel client","start":"09:45","location":"Réunion Microsoft Teams","status":"Dans 15 minutes"}] -->
+<!--
+  SYNTHETIC: simulates Outlook dropping both the ids and data-app-section. Only the aria-live
+  container with its "Rappels" header remains → exercises the "aria-text" strategy.
+  Also covers: no location, "9h30" time format.
+-->
+<div data-portal-node="true">
+<div aria-live="polite"><div><div>Rappels</div><div><button type="button">Faire tout disparaître</button></div></div>
+<div><button type="button"><div><div>Revue sprint</div></div><div><div>9h30</div></div><div>En retard de 2 minutes</div></button><button type="button" aria-label="Faire disparaître le rappel"></button></div>
+<div><button type="button" title="Appel client
+09:45 Réunion Microsoft Teams"><div><div>Appel client</div></div><div><div>09:45</div><div>Réunion Microsoft Teams</div></div><div>Dans 15 minutes</div></button></div>
+</div>
+</div>

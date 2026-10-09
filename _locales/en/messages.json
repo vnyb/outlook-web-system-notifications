@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "Outlook Reminders → System Notifications" },
+  "extDescription": { "message": "Shows Outlook web calendar reminders as system notifications. Reads only what the page displays; no network access." },
+  "notificationFallback": { "message": "Outlook reminder" },
+  "optionsTitle": { "message": "Outlook reminders – options" },
+  "optionEnabled": { "message": "Show system notifications for Outlook reminders" },
+  "optionKeepImminent": { "message": "Keep notifications for imminent meetings (≤ 5 min) on screen until clicked" },
+  "optionDebug": { "message": "Debug mode: log detected reminders to the Outlook page console (contains meeting details)" },
+  "optionsSaved": { "message": "Saved" }
+}

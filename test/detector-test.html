@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>detector tests</title>
+  <style>
+    body { font: 13px system-ui, sans-serif; margin: 16px; }
+    .pass { color: #107c10; } .fail { color: #c50f1f; }
+    pre { background: #f3f3f3; padding: 8px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>src/detector.js against test/fixtures/</h1>
+  <p>Open as <code>chrome-extension://&lt;extension id&gt;/test/detector-test.html</code> after loading the
+     extension unpacked, or headless with <code>--allow-file-access-from-files</code> (see README).</p>
+  <pre id="summary">running…</pre>
+  <div id="results"></div>
+  <script src="../src/detector.js"></script>
+  <script src="detector-test.js"></script>
+</body>
+</html>
